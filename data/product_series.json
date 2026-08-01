@@ -1,0 +1,183 @@
+{
+    "_说明": "客户常用系列名称 → 标准型号映射。新增系列时只需在此添加，无需改 Python。",
+    "series": [
+        {
+            "name": "柔光",
+            "patterns": [
+                "柔光三代",
+                "柔光Ⅲ代",
+                "柔光III代",
+                "柔光3代",
+                "柔光"
+            ],
+            "models": {
+                "55": {
+                    "normal": "QY-TH06055S 白+黑",
+                    "normal_k2": "QY-TH06055S-K2 白+黑",
+                    "pre_embedded": "QY-WB06055S 镍",
+                    "pre_embedded_k2": "QY-WB06055S-K2 镍"
+                },
+                "75": {
+                    "normal": "QY-TH09055S 白+黑",
+                    "normal_k2": "QY-TH09055S-K2 白+黑",
+                    "pre_embedded": "QY-WB09055S 镍",
+                    "pre_embedded_k2": "QY-WB09055S-K2 镍"
+                }
+            }
+        },
+        {
+            "name": "磁吸",
+            "patterns": [
+                "磁吸灯",
+                "磁吸"
+            ],
+            "models": {
+                "normal": "磁吸",
+                "pre_embedded": "磁吸"
+            }
+        },
+        {
+            "name": "射灯",
+            "patterns": [
+                "射灯",
+                "筒灯"
+            ],
+            "models": {
+                "normal": "射灯",
+                "pre_embedded": "射灯"
+            }
+        },
+        {
+            "name": "明秀",
+            "patterns": [
+                "明秀2.0",
+                "明秀"
+            ],
+            "models": {
+                "normal": "",
+                "normal_k2": "",
+                "pre_embedded": "QY-WB06001S 镍",
+                "pre_embedded_k2": "QY-WB06001S-K2 镍"
+            }
+        },
+        {
+            "name": "魔方",
+            "patterns": [
+                "魔方"
+            ],
+            "default_preinstall": true,
+            "models": {
+                "55": {
+                    "normal": "QY-WB09068",
+                    "normal_k2": "QY-WB09068-K2",
+                    "pre_embedded": "QY-WB09068",
+                    "pre_embedded_k2": "QY-WB09068-K2"
+                },
+                "90": {
+                    "normal": "QY-WB20068",
+                    "normal_k2": "QY-WB20068-K2",
+                    "pre_embedded": "QY-WB20068",
+                    "pre_embedded_k2": "QY-WB20068-K2"
+                }
+            }
+        },
+        {
+            "name": "焦点",
+            "patterns": [
+                "焦点"
+            ],
+            "models": {
+                "normal": "",
+                "normal_k2": "",
+                "pre_embedded": "QY-WB5501",
+                "pre_embedded_k2": "QY-WB5501-K2"
+            }
+        },
+        {
+            "name": "银河",
+            "patterns": [
+                "银河"
+            ],
+            "models": {
+                "normal": "银河",
+                "pre_embedded": "银河"
+            }
+        },
+        {
+            "name": "星际",
+            "patterns": [
+                "星际"
+            ],
+            "models": {
+                "normal": "星际",
+                "pre_embedded": "星际"
+            }
+        },
+        {
+            "name": "敏行",
+            "patterns": [
+                "敏行"
+            ],
+            "models": {
+                "normal": "敏行",
+                "pre_embedded": "敏行"
+            }
+        },
+        {
+            "name": "暮光",
+            "patterns": [
+                "暮光"
+            ],
+            "models": {
+                "normal": "暮光",
+                "pre_embedded": "暮光"
+            }
+        },
+        {
+            "name": "悦影",
+            "patterns": [
+                "悦影"
+            ],
+            "models": {
+                "normal": "",
+                "normal_k2": "",
+                "pre_embedded": "QY-WB7511",
+                "pre_embedded_k2": "QY-WB7511-K2"
+            }
+        },
+        {
+            "name": "悦幕",
+            "patterns": [
+                "悦幕"
+            ],
+            "models": {
+                "normal": "",
+                "normal_k2": "",
+                "pre_embedded": "QY-WB5560",
+                "pre_embedded_k2": "QY-WB5560-K2"
+            }
+        },
+        {
+            "name": "紫同",
+            "patterns": [
+                "紫同"
+            ],
+            "models": {
+                "normal": "",
+                "normal_k2": "",
+                "pre_embedded": "QY-WB06066",
+                "pre_embedded_k2": "QY-WB06066-K2"
+            }
+        },
+        {
+            "name": "米家",
+            "patterns": [
+                "米家"
+            ],
+            "models": {
+                "normal": "米家",
+                "pre_embedded": "米家"
+            }
+        }
+    ]
+}

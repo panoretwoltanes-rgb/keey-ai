@@ -1,0 +1,43 @@
+﻿{
+    "_说明": "产品关键词匹配规则。规则按顺序匹配，命中即停止。",
+
+    "keywords": {
+        "洗墙灯": {"score": 180, "field": "型号类型", "match_field": "model", "match_any": ["wb", "xq"]},
+        "洗墙": {"score": 180, "field": "型号类型", "match_field": "model", "match_any": ["wb", "xq"]},
+        "壁灯": {"score": 180, "field": "型号类型", "match_field": "model", "match_any": ["wb", "xq"]},
+        "轨道灯": {"score": 150, "field": "型号类型", "match_field": "model", "match_any": ["s16", "sjp", "t05", "t06"]},
+        "轨道": {"score": 150, "field": "型号类型", "match_field": "model", "match_any": ["s16", "sjp", "t05", "t06"]},
+        "导轨": {"score": 150, "field": "型号类型", "match_field": "model", "match_any": ["s16", "sjp", "t05", "t06"]}
+    },
+    "color_alias": {
+        "哑白": ["白+白", "哑白"],
+        "哑黑": ["黑+黑", "哑黑"],
+        "白色": ["白+白", "白色"],
+        "黑色": ["黑+黑", "黑色"],
+        "白黑": ["白+黑"],
+        "白+白": ["白+白"],
+        "黑+黑": ["黑+黑"],
+        "白+黑": ["白+黑"],
+        "白+镍": ["白+镍"]
+    },
+    "accessory": {
+        "_说明": "产品参数中包含以下关键词时，表示该产品需要自动追加配件。",
+        "trigger_patterns": [
+            "预埋",
+            "无边框"
+        ],
+        "model_extract": {
+            "_说明": "从产品参数文本中提取配件型号的正则。",
+            "regex": "(?:QY-)?[A-Z]{2,}\\d{2,}[A-Za-z0-9\\-]*"
+        },
+        "identify_rules": {
+            "_说明": "判断一个产品是否属于配件类别的规则。新增配件类型时只需在此添加规则，无需改代码。",
+            "rules": [
+                {"field": "型号", "contains": "QY-ZH"},
+                {"field": "型号", "startswith": "配件-"},
+                {"field": "参数", "contains": "预埋盒"},
+                {"field": "sheet", "contains": "恒流驱动"}
+            ]
+        }
+    }
+}

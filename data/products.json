@@ -1,0 +1,86 @@
+﻿[
+  {
+    "model": "QY-TH09055S",
+    "name": "柔光三代天花灯",
+    "color_map": {
+      "白+白": {"price": 198, "name": "柔光三代天花灯 白+白"},
+      "白+黑": {"price": 198, "name": "柔光三代天花灯 白+黑"},
+      "白+镍": {"price": 208, "name": "柔光三代天花灯 白+镍"}
+    },
+    "default_price": 198
+  },
+  {
+    "model": "QY-TH09050S",
+    "name": "柔光三代天花灯",
+    "color_map": {
+      "白+白": {"price": 178, "name": "柔光三代天花灯 白+白"},
+      "白+黑": {"price": 178, "name": "柔光三代天花灯 白+黑"}
+    },
+    "default_price": 178
+  },
+  {
+    "model": "GS920",
+    "name": "GS920 射灯",
+    "color_map": {
+      "白色": {"price": 168, "name": "GS920 射灯 白色"},
+      "黑色": {"price": 168, "name": "GS920 射灯 黑色"},
+      "白+白": {"price": 168, "name": "GS920 射灯 白+白"}
+    },
+    "default_price": 168
+  },
+  {
+    "model": "QY-DY24100Z",
+    "name": "24V 100W 驱动电源",
+    "color_map": {},
+    "default_price": 120
+  },
+  {
+    "model": "QY-DY24200Z",
+    "name": "24V 200W 驱动电源",
+    "color_map": {},
+    "default_price": 180
+  },
+  {
+    "model": "QY-DD2835I 2.0裸板",
+    "name": "2835 灯带 2.0 裸板",
+    "color_map": {
+      "3000K": {"price": 28, "name": "2835 灯带 2.0 裸板 3000K"},
+      "4000K": {"price": 28, "name": "2835 灯带 2.0 裸板 4000K"}
+    },
+    "default_price": 28,
+    "unit_price_per_meter": true
+  },
+  {
+    "model": "QY-WB09055S",
+    "name": "壁灯 09055S",
+    "color_map": {
+      "白": {"price": 298, "name": "壁灯 09055S 白色"}
+    },
+    "default_price": 298
+  },
+  {
+    "model": "QY-SJPX09055S",
+    "name": "深杯防眩射灯",
+    "color_map": {
+      "白+白": {"price": 228, "name": "深杯防眩射灯 白+白"},
+      "白+黑": {"price": 228, "name": "深杯防眩射灯 白+黑"}
+    },
+    "default_price": 228
+  },
+  {
+    "model": "QYQ5508DE",
+    "name": "筒灯 8W",
+    "color_map": {},
+    "default_price": 88
+  },
+  {
+    "model": "COB灯带",
+    "name": "COB 灯带",
+    "color_map": {
+      "3000K": {"price": 35, "name": "COB 灯带 3000K"},
+      "4000K": {"price": 35, "name": "COB 灯带 4000K"}
+    },
+    "default_price": 35,
+    "unit_price_per_meter": true
+  }
+]

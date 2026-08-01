@@ -1,0 +1,24 @@
+{
+    "_说明": "WB 产品型号 → 适配预埋盒型号 映射表。当产品参数中没有适配引用时使用。",
+    "wb_to_zh": {
+        "QY-WB06001S": "QY-ZH030MX-1",
+        "QY-WB06001S-K2": "QY-ZH030MX-1",
+        "QY-WB06002S": "QY-ZH030MX-1",
+        "QY-WB06002S-K2": "QY-ZH030MX-1",
+        "QY-WB06005S": "QY-ZH030MX-1",
+        "QY-WB06005S-K2": "QY-ZH030MX-1",
+        "QY-WB06006S": "QY-ZH030MX-1",
+        "QY-WB06006S-K2": "QY-ZH030MX-1",
+        "QY-WB06055S": "QY-ZH031MF-1",
+        "QY-WB06055S-K2": "QY-ZH031MF-1",
+        "QY-WB09055S": "QY-ZH021-1",
+        "QY-WB09055S-K2": "QY-ZH021-1",
+        "QY-WB09068": "QY-ZH031MF-1",
+        "QY-WB09068-K2": "QY-ZH031MF-1",
+        "QY-WB12068": "QY-ZH021-1",
+        "QY-WB12068-K2": "QY-ZH021-1",
+        "QY-WB20068": "QY-ZH032MF-1",
+        "QY-WB20068-K2": "QY-ZH032MF-1",
+        "QY-WB05005S": "QY-ZH031MF-1"
+    }
+}
